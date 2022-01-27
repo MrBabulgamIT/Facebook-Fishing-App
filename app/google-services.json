@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538519130158",
+    "project_id": "facebook-demo-login-sysytem",
+    "storage_bucket": "facebook-demo-login-sysytem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538519130158:android:66ec807932be92407e4fbf",
+        "android_client_info": {
+          "package_name": "com.babulgam.facebookdemologinsysytem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538519130158-vcc3pmdgg3mv2bvmiina1796e5mgr26l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN5dnaM2kCDhN0fIPBcKXtZmw0rkUtHTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538519130158-vcc3pmdgg3mv2bvmiina1796e5mgr26l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

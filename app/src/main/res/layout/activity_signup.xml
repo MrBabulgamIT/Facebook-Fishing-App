@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Signup_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It's quick and easy."
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:paddingLeft="5dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/firstName_edittext_id_singup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="First Name            "
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/surname_edittext_id_singup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Surname              "
+                android:inputType="textEmailAddress"
+                android:textColor="#090808"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/email_edittext_id_singup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Mobile number or email address"
+            android:inputType="textEmailAddress"
+            android:textColor="#090505"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/password_edittext_id_singup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="New Password "
+            android:inputType="textEmailAddress"
+            android:textColor="#090505"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <ProgressBar
+            android:id="@+id/progress_bar_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of birth :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Day"
+                android:id="@+id/dateButton_id"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:bottomRightRadius="10dp"
+                android:bottomLeftRadius="10dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Day/Month/Year"
+                android:id="@+id/dateTextview_id"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center" style="@style/Base.CardView"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+
+
+            <RadioGroup
+                android:id="@+id/radio_Group_id"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RadioButton
+                    android:id="@+id/maleButton_Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:text="Male"
+
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/femaleButton_Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:text="Female"
+                    />
+
+                <RadioButton
+                    android:id="@+id/customButton_Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:text="Custom"
+                    />
+            </RadioGroup>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/textfb"/>
+
+
+
+        <Button
+            android:id="@+id/signUp_Button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sing Up "
+            android:textSize="20dp"
+            android:bottomRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:textStyle="bold"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            />
+        <TextView
+            android:id="@+id/goto_singIN_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#0E0909"
+            android:text="Are you registered ? Sing In"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
